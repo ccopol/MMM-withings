@@ -146,7 +146,7 @@ module.exports = NodeHelper.create({
     var self = this;
     console.log("##### Starting node helper for: " + self.name);
 
-    self.baseApi = 'account.health.nokia.com';
+    self.baseApi = 'account.withings.com';
     self.withingsApi = 'wbsapi.withings.net';
     self.tokenPath = '/oauth2/token';
     self.authorizationUri = self.baseApi + '/oauth2_user/authorize2';
